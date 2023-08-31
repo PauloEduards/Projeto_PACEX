@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade2</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;}
+    </style>
+</head>
+
+<body>
+    <header><h1>Cadastro Escolar</h1></header>
+    <form action="enviar.py">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        Nome:<br>
+        <input type="text" name="Nome"><br>
+        Sobrenome:<br>
+        <input type="text" name="Sobrenome"><br>
+        Email:<br>
+        <input type="email" name="Email"><br>
+        Estilo de Ensino:<br>
+        <select name="Estilo de Ensino">
+        <option value="Presencial">Presencial</option>
+        <option value="Semi-Presencial">Semi-Presencial</option>
+        <option value="EAD">EAD</option>
+        </select><br>
+        Data de Nascimento:<br>
+        <input type="datetime-local"><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+    <h1> Teste de Aptidão Cognitiva</h1>
+    <h3>Exercícios</h3>
+    <ol>
+        <!--Primeiro Exercício-->
+    <li><p>Em uma escola foi feito uma gincana na qual o objetivo de uma das atividades era acertar a maior quantidade de chutes ao gol. <br>
+    Analise a tabela e responda. </p></li>
+    <table>
+        <tr>
+            <th>Nomes</th>
+            <th>Acertos</th>
+            <th>Erros</th>
+        </tr>
+        <tr>
+            <td>Amanda</td>
+            <td>6</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>3</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Roni</td>
+            <td>8</td>
+            <td>2</td>
+        </tr>
+        </table>
+<p>Assinale a alternativa correta.</p>
+<p>Quem ganhou a gincana?</p>
+<form>
+    <ol type="A">
+    <li><input type="radio" name="resposta1" value="Amanda">Amanda<br></li>
+    <li><input type="radio" name="resposta1" value="Marcos">Marcos<br></li>
+    <li><input type="radio" name="resposta1" value="Roni">Roni<br></li>
+    </ol>
+</form>
+<!--Segundo Exercício-->
+<li><p>Analise a tabela e responda.</p></li>
+<table>
+    
+    <tr>
+        <th>Saldo inicial</th>
+        <th>R$550,00</th>
+    </tr>
+    <tr>
+        <td>Conta de Luz</td>
+        <td>-R$200,00</td>
+    </tr>
+    <tr>
+        <td>Conta de água</td>
+        <td>-R$100,00</td>
+    </tr>
+    <tr>
+        <td>Salario da Semana</td>
+        <td>+R$250,00</td>
+    </tr>
+    <tr>
+        <td>Parcela do carro</td>
+        <td>-R$600,00</td>
+    </tr>
+    <tr>
+        <th>Saldo Final</th>
+        <th>   ???   </th>
+    </tr>
+</table>
+<li><p>Qual o valor do <b>saldo final?</b></p></li>
+<ol type="A">
+<li><input type="radio" name="resposta2" value="R$200,00">R$200,00<br></li>
+<li><input type="radio" name="resposta2" value="-R$100,00">-R$100,00<br></li>
+<li><input type="radio" name="resposta2" value="-R$200,00">-R$200,00<br></li>
+<li><input type="radio" name="resposta2" value="R$300,00">R$300,00<br></li>
+</ol>
+<li><p>Marque as opções corretas.</p></li><br>
+<input type="checkbox" name="resposta3" value="opção1">O triplo de (-3) é 9<br>
+<input type="checkbox" name="resposta3" value="opção2">O dobro de 4 somado com o dobro de (-4) é 0<br>
+<input type="checkbox" name="resposta3" value="opção3">(-2).(-3).(-4)=24 <br>
+<input type="checkbox" name="resposta3" value="opção4">(-6).(-6).(-6)=-216<br>
+
+
+<!---->
+</ol>
+</body>
+</html>

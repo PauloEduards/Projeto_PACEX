@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="aula 4.css">
+</head>
+<body>
+    <h1 id="texto">A lâmpada</h1>
+    <button type="button"
+onclick="document.getElementById('texto').style.display='none'">
+Oculte o Título</button>
+
+    <p id="demo">Este texto pode ser trocado por outro apertando este botão abaixo.</p>
+          <button type="button"
+          onclick='document.getElementById("demo").innerHTML = "Pronto,com apenas um click o texto foi mudado."'>
+ Click Aqui </button><br><br><hr>
+
+
+ <button onclick="document.getElementById('lampada').src='Lâmpada acesa.png'">
+    Ligue a lâmpada</button> <br><br>
+
+    <img id="lampada" src="Lâmpada apagada.png" style="width: 300px">
+<br>
+<br>
+
+    <button onclick="document.getElementById('lampada').src='Lâmpada apagada.png'">
+    Desligue a lâmpada</button>
+    <br>
+    <h2 id='lampada'></h2>
+
+
+
+    <script>
+        window.alert(20*2)
+        var lampada= "LAMPADA"
+        document.getElementById('lampada').innerHTML = lampada;
+
+
+    
+    </script>
+    
+<button onclick="window.print()">
+Imprimir</button> 
+
+
+<script>
+    var somaEsubtração;
+    function somaEsubtração (num1 , num2){
+    } if(somaEsubtração === "-"){
+        return 20-5;
+    } else{
+        return "nenhuma das opções"
+    }
+
+
+    console.log(somaEsubtração)
+</script>
+<script>
+    function subtrair(55 - 12) {
+    resultado = 55-12
+    return resultado
+    }
+    var num1 = 55
+    var num2 = 12
+
+    var resposta = subtrair(55-12)
+    document.getElementById('subtrair').innerHTML= resposta
+    </script>
+
+
+    <p id="saudacao3"></p>
+    <script>
+    var saudacao;
+    var hora = new Date().getHours();
+
+    if (hora < 12) {
+        saudacao = "bom dia";
+    } else if (hora < 18) {
+        saudacao = "boa tarde";
+    } else if (hora < 23){
+        saudacao = "boa noite";
+    } else {
+        saudacao =  "vá dormir!";
+    }
+    document.getElementById("saudacao3").innerHTML = saudacao;
+ 
+</script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
